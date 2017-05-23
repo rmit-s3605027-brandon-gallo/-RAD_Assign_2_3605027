@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @coordin.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @coordin.email %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @coordin.password %>
+</p>
+
+<%= link_to 'Edit', edit_coordin_path(@coordin) %> |
+<%= link_to 'Back', coordins_path %>

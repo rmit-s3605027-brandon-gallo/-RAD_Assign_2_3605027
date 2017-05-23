@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Coordinators</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @coordins.each do |coordin| %>
+      <tr>
+        <td><%= coordin.name %></td>
+        <td><%= coordin.email %></td>
+        <td><%= coordin.password %></td>
+        <td><%= link_to 'Show', coordin %></td>
+        <td><%= link_to 'Edit', edit_coordin_path(coordin) %></td>
+        <td><%= link_to 'Destroy', coordin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Coordin', new_coordin_path %>

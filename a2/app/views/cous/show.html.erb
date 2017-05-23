@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cou.name %>
+</p>
+
+<p>
+  <strong>Prerequisite:</strong>
+  <%= @cou.prerequisite %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cou.description %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= Category.find(@cou.category).name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= Location.find(@cou.location).name %>
+</p>
+
+<%= link_to 'Edit', edit_cou_path(@cou) %> |
+<%= link_to 'Back', cous_path %>

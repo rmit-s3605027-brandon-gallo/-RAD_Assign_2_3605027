@@ -1,0 +1,46 @@
+<%= form_with(model: cou, local: true) do |form| %>
+  <% if cou.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(cou.errors.count, "error") %> prohibited this cou from being saved:</h2>
+
+      <ul>
+      <% cou.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :cou_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :prerequisite %>
+    <%= form.text_field :prerequisite, id: :cou_prerequisite %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description, id: :cou_description %>
+  </div>
+
+  <div class="field">
+     <% Category.all.each do |category| %>
+    <%= form.label category.name %>
+    <%= form.check_box :category, id: :cou_category %>
+    <% end %>
+  </div>
+
+  <div class="field">
+    <%Location.all.each do |location| %>
+    <%= form.label location.name %>
+    <%= form.check_box :location, id: :cou_location %>
+    <% end %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
