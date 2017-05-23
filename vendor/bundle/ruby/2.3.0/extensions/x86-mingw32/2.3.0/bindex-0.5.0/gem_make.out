@@ -1,0 +1,71 @@
+current directory: C:/Users/Brandon/Documents/-RAD_Assign_2_3605027/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+C:/Ruby23/bin/ruby.exe -r ./siteconf20170524-104756-1khqnuf.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/Brandon/Documents/-RAD_Assign_2_3605027/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: C:/Users/Brandon/Documents/-RAD_Assign_2_3605027/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+generating cruby-i386-mingw32.def
+compiling cruby.c
+In file included from c:/Ruby23/include/ruby-2.3.0/ruby.h:33:0,
+                 from cruby.c:1:
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:131:14: error: size of array 'ruby_check_sizeof_voidp' is negative
+In file included from c:/Ruby23/include/ruby-2.3.0/ruby.h:33:0,
+                 from cruby.c:1:
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_obj_freeze_inline':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1360:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1361:2: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1362:6: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1362:27: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_data_object_get':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1400:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_data_object_make':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1414:5: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_data_typed_object_make':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1421:5: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_num2char_inline':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1587:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1587:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1587:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1587:41: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1587:41: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1587:41: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1588:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1588:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1588:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_class_of':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1949:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_type':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1966:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+In file included from c:/Ruby23/include/ruby-2.3.0/ruby.h:33:0,
+                 from cruby.c:1:
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_clone_setup':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1997:56: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1998:33: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1999:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:1999:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_dup_setup':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2005:42: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2006:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2006:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_array_len':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2012:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2013:2: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2013:24: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_array_const_ptr':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2027:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2027:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2027:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_struct_len':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2034:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2035:2: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2035:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h: In function 'rb_struct_const_ptr':
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2041:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2041:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+c:/Ruby23/include/ruby-2.3.0/ruby/ruby.h:2041:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+make: *** [cruby.o] Error 1
+
+make failed, exit code 2
